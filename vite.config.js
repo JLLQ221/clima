@@ -10,5 +10,14 @@ export default defineConfig({
         }),
         react(),
     ],
-    
+    build: {
+        outDir: 'public', // Define el directorio de salida como `public`
+        emptyOutDir: false, // Evita que el directorio `public` se limpie automáticamente
+    },
+    server: {
+        watch: {
+            // Asegúrate de que Vite esté observando solo los archivos necesarios
+            ignored: ['public/**'], // Ignora los archivos en `public` en modo desarrollo
+        },
+    },
 });
