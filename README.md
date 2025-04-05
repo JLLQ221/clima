@@ -64,3 +64,9 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Cargar proyecto
+Para cargar el proyecto solo debes de descargar composer y abrir el proyecto una vez abierto colocar el comando:
+php artisan serve
+
+En la termina te dara una url para ver la aplicación así que con el comando ctrl más clic te mandara a la página.
