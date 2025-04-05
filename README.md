@@ -68,4 +68,5 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## Cargar proyecto
 Para cargar el proyecto solo debes de descargar composer y abrir el proyecto una vez abierto colocar el comando:
 php artisan serve
+
 En la termina te dara una url para ver la aplicación así que con el comando ctrl más clic te mandara a la página.
